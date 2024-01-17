@@ -3,13 +3,13 @@ import Navbar from "@/components/Navbar";
 
 const Hero = () => {
   return (
-    <div className=" bg-[url()] lg:bg-[url(/hero-img.png)] bg-no-repeat min-h-screen ">
+    <div className=" bg-[url()] lg:bg-[url(/bg-img.jpg)] bg-no-repeat min-h-screen ">
       <Navbar />
       <div className="container lg:grid-cols-2 h-[calc(100vh-60px)]">
         <div className="hidden lg:block"></div>
         <div className="md:text-[100px]  text-[60px] font-bold leading-tight flex justify-center mx-auto md:justify-end items-center  ">
           <div>
-            <p data-aos="zoom-in-up">I'm</p>
+            <p data-aos="zoom-in-up">I&apos;m</p>
             <p className="text-accent" data-aos="zoom-in-left">
               Taiwo
             </p>
