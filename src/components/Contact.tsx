@@ -23,17 +23,17 @@ const Contact = () => {
         <div className="space-y-8">
 <div className="flex flex-col gap-1" data-aos="zoom-in-up">
     <label htmlFor="name">Name</label>
-    <input type="text" id='name' className="h-[40px] bg-transparent border border-accent "/>
+    <input type="text" id='name' className="h-[40px] bg-transparent border border-green-500 "/>
 </div>
 <div className="flex flex-col gap-1" data-aos="zoom-in-up">
     <label htmlFor="email">Email</label>
-    <input id='email' className="bg-transparent border h-[40px] border-accent"/>
+    <input id='email' className="bg-transparent border h-[40px] border-green-500"/>
 </div>
 <div className="flex flex-col gap-1" data-aos="zoom-in-up">
     <label htmlFor="msg">Message</label>
-<textarea placeholder="Enter message here" id='msg' rows={8} className="h-[120px]  bg-transparent border border-accent"></textarea>
+<textarea placeholder="Enter message here" id='msg' rows={8} className="h-[120px]  bg-transparent border border-green-500"></textarea>
 </div>
-<button className="bg-accent p-2 px-6" data-aos="zoom-in-up">Send</button>
+<button className="bg-green-500 p-2 px-6" data-aos="zoom-in-up">Send</button>
 
         </div>
       </div>

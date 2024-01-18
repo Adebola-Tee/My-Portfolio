@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="md:text-[100px]  text-[60px] font-bold leading-tight flex justify-center mx-auto md:justify-end items-center  ">
           <div>
             <p data-aos="zoom-in-up">I&apos;m</p>
-            <p className="text-accent" data-aos="zoom-in-left">
+            <p className="text-green-500" data-aos="zoom-in-left">
               Taiwo
             </p>
             <p data-aos="zoom-in-right">Oloyede</p>
